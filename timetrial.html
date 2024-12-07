@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="timetrial.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    </head>
+    <body>
+      <div class="headerstrip">
+        <div id="display">0:00</div>
+      </div>
+      <div class="container">
+        <div class="buttons">
+          <button type="button" class="page-button tt" onclick="StartTimer()" id="start">Start</button>
+          <button type="button" class="page-button tut" onclick="TutorialPage()" id="tutorial">Tutorial</button>
+          <a href="resultpage.html">
+            <button type="button" class="page-button stp" id="stopbutton" disabled onclick="GetResult()">Stop</button>
+          </a>
+        </div>
+      </div>
+      <script src="timerscript.js"></script>
+    </body>
